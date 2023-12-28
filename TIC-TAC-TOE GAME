@@ -82,4 +82,5 @@ int main(){
         }
         Currentplayer=(Currentplayer=='X')?'O':'X';
     }
+    cout<<"Do you want to play another game?";
 }
