@@ -1,0 +1,25 @@
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+int main(){
+    srand(time(0));
+    int generatenumber=rand()%100 + 1;
+    int n;
+    for(int i=0;;i++){
+        cout<<"Enter your guessing number"<<endl;
+        cin>>n;
+        if(n==generatenumber){
+            cout<<"Your guess is correct number";
+            break;
+        }
+        else{
+            if(n<generatenumber){
+                cout<<"Your guess is too low"<<endl;
+            }
+            else{
+                cout<<"Your guess is too high"<<endl;
+            }
+        }
+    }
+}
