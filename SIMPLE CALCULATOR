@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cout<<"Enter two input";
+    cin>>a>>b;
+    string x;
+    cout<<"choose an operation a)add b)sub c)Mul d)div"; 
+    cin>>x;
+    if(x=="add"){
+        cout<<a+b;
+    }
+    if(x=="sub"){
+        cout<<a-b;
+    }
+    if(x=="Mul"){
+        cout<<a*b;
+    }
+    if(x=="div"){
+        cout<<a/b;
+    }
+}
