@@ -2,21 +2,21 @@
 using namespace std;
 int main(){
     int a,b;
-    cout<<"Enter two input";
+    cout<<"Enter two input:";
     cin>>a>>b;
     string x;
-    cout<<"choose an operation a)add b)sub c)Mul d)div"; 
+    cout<<"choose an operation:+,-,*,/"<<endl; 
     cin>>x;
-    if(x=="add"){
+    if(x=="+"){
         cout<<a+b;
     }
-    if(x=="sub"){
+    if(x=="-"){
         cout<<a-b;
     }
-    if(x=="Mul"){
+    if(x=="*"){
         cout<<a*b;
     }
-    if(x=="div"){
+    if(x=="/"){
         cout<<a/b;
     }
 }
